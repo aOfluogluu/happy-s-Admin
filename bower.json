@@ -1,0 +1,22 @@
+{
+  "name": "happys",
+  "description": "Admin template for business",
+  "main": "app/app.js",
+  "authors": [
+    "Ali Ihsan OFLUOGLU <aofluoglu95@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "admin"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

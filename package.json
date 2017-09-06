@@ -1,0 +1,26 @@
+{
+  "name": "happys",
+  "version": "1.0.0",
+  "description": "Admin template for business",
+  "main": "app/app.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app",
+    "pretest": "npm install"
+  },
+  "keywords": [
+    "admin"
+  ],
+  "author": "Ali Ihsan OFLUOGLU <aofluoglu95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.6",
+    "mysql": "^2.5.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aOfluogluu/happy-s-Admin"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="imdbApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="imdbApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="imdbApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="happysApp" class="no-js"><!--<![endif]-->
+	<head>
+		<base href="/">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Happy's Admin</title>
+		<meta name="description" content="">
+    	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    	<link rel="Shortcut Icon" href="public_html/img/favicon.ico"  type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="app.css">
+		<!-- The Css File -->
+		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div ng-view></div>	
+	
+
+		<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+
+		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="../bower_components/angular-route/angular-route.js"></script>
+
+		<script type="text/javascript" src="app.socket.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
